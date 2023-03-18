@@ -25,7 +25,20 @@ header {
     font-size:small;
 }
 
-#logo {
+#images {
+    color: #4285F4;
+    position: relative;
+    left: 105px;
+    bottom: 20px;
+    width: 100px;
+}
+
+#logo{
+    margin: auto;
+    margin-top: 10%;
+}
+
+#logo-img{
     margin: auto;
     margin-top: 10%;
 }
