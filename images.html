@@ -18,14 +18,14 @@
                 <img src="google_logo.png" alt="Google logo">
                 <div class="container" id="images">images</div>
             </div>
-            <div id="search-form">
-                <form action="https://www.google.com/search">
+            <div>
+                <form action="https://www.google.com/search" id="search-form" class="images-form">
                     <div id="search-bar" class="rounded-pill border">
-                        <span id="magni-glass"></span>
-                        <input autocomplete="off" autofocus id="input-bar" class="form-control shadow-none border-0" type="text" name="q">
-                    </div>
-                    <div id="search-btns">
-                        <button class="btn btn-light btn-sm py-2 px-3" type="submit" name="tbm" value="isch">Search Images</button>
+                        <button id="img-search" type="submit" name="tbm" value="isch">
+                            <img id="srchbtn" src="search_images_icon.png" alt="Search Button">
+                        </button>
+                        <span class="images-form" id="magni-glass"><img id="magni-icon" src="search_icon.png"></span>
+                        <input autocomplete="off" autofocus id="input-bar" class="form-control shadow-none border-0 images-form" type="text" name="q">
                     </div>
                 </form>
             </div>

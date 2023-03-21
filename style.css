@@ -34,6 +34,17 @@ header {
     width: 100px;
 }
 
+#img-search {
+    position: relative;
+    left: 50%;
+    bottom: 5px;
+    height: 44px;
+    width: 44px;
+    padding-right: 13px;
+    border: none;
+    background-color: #ffffff00;
+}
+
 #input-bar {
     height: 34px;
     position: relative;
@@ -42,23 +53,36 @@ header {
     max-width: 90%;
 }
 
+#input-bar.images-form {
+    bottom: 42px;
+    max-width: 80%;
+}
+
 #logo {
     margin: auto;
     margin-top: 12%;
 }
 
 #logo.img {
-    margin-bottom: -18px;
+    margin-bottom: -24px;
 }
 
 #magni-glass {
     position: relative;
-    right: 47%;
-    top: 47%;
+    right: 47.8%;
+    top: 6px;
     padding: 11px;
-    background-image: url("search_icon.png");
-    background-repeat: no-repeat;
-    background-size: 15px;
+}
+
+#magni-glass.images-form {
+    top: -4px;
+    right: 52%;
+}
+
+#magni-icon {
+    object-fit: contain;
+    width: 14.58px;
+    height: 14.58px;
 }
 
 #search-bar { 
@@ -69,15 +93,12 @@ header {
     border-color: rgb(0, 0, 0);
 }
 
-#search-bar:focus {
-    box-shadow: none;
+#search-form.images-form {
+    height: 104px;
+    padding: 26px;
 }
 
 #search-bar:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
-}
-
-#search-bar:active {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -88,5 +109,11 @@ header {
 
 #search-form {
     height: 160px;
-    padding: 20px;
+    padding: 26px;
+}
+
+#srchbtn {
+    object-fit: contain;
+    width: 17.5px;
+    height: 17.5px;
 }
