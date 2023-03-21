@@ -13,6 +13,7 @@ a:hover {
 
 .btn {
     color:rgba(0, 0, 0, 0.8);
+    margin: 15px 4px;
 }
 
 .btn:hover {
@@ -33,29 +34,42 @@ header {
     width: 100px;
 }
 
-#logo{
-    margin: auto;
-    margin-top: 10%;
+#input-bar {
+    height: 34px;
+    position: relative;
+    bottom: 22px;
+    margin-left: 26px;
+    max-width: 90%;
 }
 
-#logo-img{
+#logo {
     margin: auto;
-    margin-top: 10%;
+    margin-top: 12%;
 }
 
-#search-bar { 
+#logo.img {
+    margin-bottom: -18px;
+}
+
+#magni-glass {
+    position: relative;
+    right: 47%;
+    top: 47%;
+    padding: 11px;
     background-image: url("search_icon.png");
     background-repeat: no-repeat;
     background-size: 15px;
-    background-position: 15px 15px;
-    text-indent: 22px;
-    height: 145%;
-    max-width: 585px;
+}
+
+#search-bar { 
+    height: 46px;
+    max-width: 582px;
     margin: auto;
+    padding: 3px 5px 0px 10px;
+    border-color: rgb(0, 0, 0);
 }
 
 #search-bar:focus {
-    border-color: rgb(223, 223, 223);
     box-shadow: none;
 }
 
@@ -68,5 +82,11 @@ header {
 }
 
 #search-btns {
-    margin-top: 40px;
+    height: 88px;
+    padding-top: 18px;
+}
+
+#search-form {
+    height: 160px;
+    padding: 20px;
 }

@@ -14,18 +14,19 @@
                 <a href="advanced.html" class="m-2">Advanced Search</a>
             </div>
         </header>
-        <main class="text-center mx-2">
-            <div class="mb-4" id="logo-img">
+        <main class="text-center">
+            <div id="logo">
                 <img src="google_logo.png" alt="Google logo">
             </div>
-            <div class="container text-center" name="search-form">
-                <form action="https://www.google.com/search" class="row g-5">
-                    <div>
-                        <input autocomplete="off" autofocus class="form-control rounded-pill px-4" id="search-bar" type="text" name="q">
+            <div id="search-form">
+                <form action="https://www.google.com/search">
+                    <div id="search-bar" class="rounded-pill border">
+                        <span id="magni-glass"></span>
+                        <input autocomplete="off" autofocus id="input-bar" class="form-control shadow-none border-0" type="text" name="q">
                     </div>
                     <div id="search-btns">
-                        <input class="btn btn-light btn-sm mx-1 py-2 px-3" type="submit" value="Google Search">
-                        <input class="btn btn-light btn-sm mx-1 py-2 px-3" name="btnI" type="submit" value="I'm Feeling Lucky">
+                        <input class="btn btn-light btn-sm py-2 px-3" type="submit" value="Google Search">
+                        <input class="btn btn-light btn-sm py-2 px-3" name="btnI" type="submit" value="I'm Feeling Lucky">
                     </div>
                 </form>
             </div>
