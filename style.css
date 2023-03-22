@@ -11,6 +11,21 @@ a:hover {
     text-decoration-line: underline;
 }
 
+#adv-logo {
+    width: 74px;
+    height: 24px;
+}
+
+#adv-main {
+    
+}
+
+#adv-title {
+    padding: 23px 35px 22px 45px;
+    font-size: 20px;
+    color: #D93025;
+}
+
 .btn {
     color:rgba(0, 0, 0, 0.8);
     margin: 15px 4px;
@@ -24,6 +39,7 @@ a:hover {
 
 header {
     font-size:small;
+    margin-top: -2px
 }
 
 #images {
