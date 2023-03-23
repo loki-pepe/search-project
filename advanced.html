@@ -11,16 +11,107 @@
         <header>
             <div class="d-flex justify-content-between ms-3 mb-3 me-4 mt-4">
                 <span class="ms-1">
-                    <a href="index.html"><img src="google_logo.png" alt="Google logo" id="adv-logo"></a>
+                    <a href="index.html"><span id="adv-logo"></span></a>
                 </span>
                 <span>
                     <a href="index.html" class="m-2">Google Search</a>
                 </span>
             </div>
         </header>
-        <main id="adv-main">
+        <main>
             <div class="border-bottom border-light-subtle" id="adv-title">
                 <label>Advanced Search</label>
+            </div>
+            <div>
+                <form action="https://www.google.com/search" id="adv-form">
+                    <div class="d-flex flex-row">
+                        <div id="param-title" class="adv-param">
+                            <div>
+                                <span>Find pages with...</span>
+                            </div>
+                        </div>
+                        <div class="adv-input"></div>
+                        <div class="adv-howto" id="howto-title">
+                            <div class="align-self-center">
+                                <strong>To do this in the search box.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-sm-flex flex-wrap">
+                        <div class="adv-param">
+                            <div class="d-inline-flex">
+                                <label class="align-self-center">all these words: </label>
+                            </div>
+                        </div>
+                            <div class="adv-input">
+                                <input name="as_q" type="text">
+                            </div>
+                            <div class="adv-howto">
+                                <div class="d-inline-flex flex-wrap align-self-center">
+                                    Type the important words:&nbsp;
+                                    <span>tri-colour rat terrier</span>
+                                </div>    
+                            </div>                  
+                    </div>
+                    <div class="d-sm-flex flex-wrap">
+                        <div class="adv-param">
+                            <div class="d-inline-flex">
+                                <label class="align-self-center">this exact word or phrase:</label>
+                            </div>
+                        </div>
+                        <div class="adv-input">
+                            <input name="as_epq" type="text">
+                        </div>
+                        <div class="adv-howto">
+                            <div class="d-inline-flex flex-wrap align-self-center">
+                                Put exact words in quotes:&nbsp;
+                                <span>"rat terrier"</span>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="d-sm-flex flex-wrap">
+                        <div class="adv-param">
+                            <div class="d-inline-flex">
+                                <label class="align-self-center">any of these words:</label>
+                            </div>
+                        </div>
+                        <div class="adv-input">
+                            <input name="as_oq" type="text">
+                        </div>
+                        <div class="adv-howto">
+                            <div class="d-inline-flex flex-wrap align-self-center">
+                                Type OR between all the words you want:&nbsp;
+                                <span>miniature OR standard</span>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="d-sm-flex flex-wrap">
+                        <div class="adv-param">
+                            <div class="d-inline-flex">
+                                <label class="align-self-center">none of these words:</label>
+                            </div>
+                        </div>
+                        <div class="adv-input">
+                            <input name="as_eq" type="text">
+                        </div>
+                        <div class="adv-howto">
+                            <div class="d-inline-flex flex-wrap align-self-center">
+                                Put a minus sign just before words that you don't want:&nbsp;
+                                <span>-rodent, -"Jack Russell"</span>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="d-sm-flex flex-wrap">
+                        <div class="adv-param">
+                        </div>
+                        <div class="adv-input" id="adv-btn">
+                            <button type="submit">Advanced Search</button>
+                        </div>
+                        <div class="adv-howto">
+                        </div>                      
+                    </div>
+                    <div class="border-top border-light-subtle" id="endline"></div>                   
+                </form>
             </div>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
